@@ -3,12 +3,13 @@ import React from "react";
 import { View } from "react-native";
 
 //Import Screen
+import Form from "./src/screens/form";
 
 export default function App() {
   return (
-    <View>
-      <StatusBar />
-      {/* Use Component */}
+    <View style={{ flex: 1 }}>
+      <StatusBar style="dark" />
+      <Form />
     </View>
   );
 }
